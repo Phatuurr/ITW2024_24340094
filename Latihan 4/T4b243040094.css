@@ -52,14 +52,14 @@ body {
     font: 16px/28px arial, sans-serif;
     background-color: #eaeaea;
     color: #333333;
-    background-image: url(img/vintage-wallpaper.png);
+    background-image: url(img/pattern.jpg);
     font-family: Montserrat;
 }
 
 .container {
     width: 900px;
     margin: auto;
-    background-color: #001e3f;
+    background: #153b60;
     color: #F6F4EB;
 }
 
