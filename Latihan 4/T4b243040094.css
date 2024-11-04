@@ -132,6 +132,7 @@ body {
     height: 635px;
     float: left;
     margin-right: 15px;
+    border-radius: 20px;
 }
 
 .content .Artikel {
@@ -148,11 +149,42 @@ body {
 .content .penulis {
     font-size: 11px;
     margin-top: 5px;
+    
+}
+.content .biodata {
+    font-weight: 500;
+    font-size: 21px;
+    background-color: #006195;
+    height: 83px;
+    width: 460px;
+    margin-left: 394px;
+    line-height: 20px;
+    border: 3px solid #44bf00;
+    padding-top: 27px;
+    border-radius: 20px;
 }
 
-.content .penulis a {
-    color: #4682A9;
+.content .biodata p {
+    margin-right: 20px;
+    margin-top: 3px;
+}
+.content .penulis .poto1 {
+    width: 75px;
+    height: 75px;
+    border: 2px solid #F6F4EB;
+    float: left;
+    margin: 33px 10px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.content .biodata a {
+    color: #44bf00;
     text-decoration: none;
+}
+
+.content .biodata a:hover {
+    text-decoration: underline;
 }
 
 .content p {
@@ -175,6 +207,7 @@ body {
 .content .ae3 {
     width: 860px;
     margin-top: 20px;
+    border-radius: 20px;
 }
 
 .content .judulparagraf {
