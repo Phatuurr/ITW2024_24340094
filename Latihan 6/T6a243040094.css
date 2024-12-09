@@ -75,6 +75,7 @@ nav ul li a {
         height: 15px;
         background-color:  rgba(0, 0, 0, .2);
         justify-content: space-around;
+        background-attachment: fixed;
     }
 
     nav .pertama {

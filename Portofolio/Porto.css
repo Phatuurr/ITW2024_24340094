@@ -6,51 +6,58 @@
 }
 
 body {
-    font-family: montserrat;
+    font-family: 'montserrat';
     background-color: #EEEEEE;
     width: auto;
     height: auto;
-}
-
-nav {
-    display: flex;
-    color: white;
-    justify-content: space-around;
-    position: fixed;
-    z-index: 9999;
-    width: 100%;
-}
-
-.background {
-    background-color: rgba(0, 0, 0, .1);
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    backdrop-filter: blur(50px);
-    z-index: 10;
 }
 
 .colloring {
     color: #76abae;
 }
 
-h4 {
-    font-size: 40px;
-    padding: 5px 0;
+html {
+    scroll-behavior: smooth;
 }
 
-nav ul {
-    display: flex;
-    list-style: none;
-    width: 40%;
-    justify-content: space-between;
-    padding: 20px 0;
+
+/* Navbar */
+
+.background {
+    width: 105px;
+    height: 100%;
+    background-color: white;
+    z-index: 999;
+    position: fixed;
+    margin-top: 120px;
+    border-radius: 0 100px 0 0;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
+.navbar {
+    z-index: 9999;
+    position: fixed;
 }
+
+.navbar a img {
+    width: 60px;
+    height: 60px;
+    margin-left: 14px;
+    margin-top: 47px;
+    transition: all 0.3s;
+}
+
+.navbar .home {
+    margin-top: 130px;
+}
+
+.navbar a img:hover {
+    background-color: rgba(0, 0, 0, .1);
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    transition: all 0.3s;
+}
+
 
 /* Halaman 1 */
 
@@ -133,7 +140,7 @@ nav ul li a {
     width: 380px;
     height: 550px;
     border-radius: 20px;
-    margin-top: 180px;
+    margin-top: 160px;
     margin-left: 150px;
     float: left;
     border: 8px solid white;
@@ -145,7 +152,7 @@ nav ul li a {
     width: 220px;
     height: 35px;
     position: absolute;
-    margin-top: 160px;
+    margin-top: 140px;
     margin-left: 235px;
     text-align: center;
     font-size: 23px;
@@ -154,11 +161,12 @@ nav ul li a {
     padding-top: 12px;
     border: 5px solid white;
     letter-spacing: 2px;
+    z-index: 200;
 }
 
 .content h1 {
     color: white;
-    margin-top: 200px;
+    margin-top: 170px;
     margin-left: 590px;
     position: absolute;
     font-size: 50px;
@@ -166,29 +174,52 @@ nav ul li a {
 
 .content p {
     color: #ffffff;
-    margin-top: 300px;
+    margin-top: 240px;
     margin-left: 590px;
     position: absolute;
     font-size: 20px;
-    width: 800px;
+    width: 740px;
     line-height: 30px;
 }
 
+.content h1.pendidikan {
+    margin-top: 420px;
+    color: white;
+}
 
-/* ukuran Tablet */
+.content ul {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+}
 
-@media screen and (max-width: 768px) {
-     nav ul {
-            width: 50%;
-    }
+.content ul.Education {  
+    margin-top: 470px;
+    margin-left: 610px;
+    line-height: 25px;
+}
+
+.content h1.Skill {
+    margin-left: 1000px;
+    margin-top: 420px;
+    color: white;
     
 }
 
-/* ukuran Mobile */
+.content ul.skilla {
+    margin-left: 1020px;
+    margin-top: 490px;
+    line-height: 35px;
+}
 
-@media screen and (max-width: 568px) {
-    nav ul {
-           display: none;
-   }
-   
+
+
+.content img.elemen1 {
+    width: 170px;
+    position: absolute;
+    z-index: 20;
+    right: 0;
+    margin-right: 100px;
+    margin-top: 100px;
+    rotate: 25deg;
 }
